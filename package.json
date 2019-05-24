@@ -6,16 +6,19 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "types": "tsc -noEmit"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "pixi-sound": "^3.0.0",
-    "pixi.js": "^5.0.2",
-    "webpack": "^4.31.0",
+    "pixi.js": "^5.0.3",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.3.1"
+    "webpack-dev-server": "^3.4.1"
   }
 }
