@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "pixi-sound": "^3.0.0",
+    "pixi-sound": "^3.0.3",
     "pixi.js": "^5.0.3",
     "ts-loader": "^6.0.1",
     "typescript": "^3.4.5",
