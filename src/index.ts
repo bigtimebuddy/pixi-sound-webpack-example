@@ -9,7 +9,7 @@ const app = new Application({
 });
 document.body.appendChild(app.view);
 
-function createButton(visible) {
+function createButton(visible:boolean) {
     const button = new Graphics()
         .beginFill(0x0, 0.5)
         .drawRoundedRect(0, 0, 100, 100, 10)
