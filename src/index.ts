@@ -1,5 +1,5 @@
 import { Application, Graphics } from 'pixi.js';
-import sound from 'pixi-sound';
+import { sound } from '@pixi/sound';
 
 const app = new Application({
     backgroundColor: 0x999999,
