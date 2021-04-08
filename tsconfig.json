@@ -11,12 +11,10 @@
     "noUnusedParameters": true,
     "target": "es5",
     "esModuleInterop": true,
-    "paths": {
-      "mini-signals": [
-        "node_modules/resource-loader/typings/mini-signals.d.ts"
-      ]
-    },
-    "baseUrl": "./"
+    "typeRoots": [
+      "node_modules/@types",
+      "typings"
+    ]
   },
   "include": [
     "src/**/*.ts"
