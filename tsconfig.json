@@ -1,22 +1,12 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-    "noImplicitAny": true,
     "sourceMap": true,
     "module": "ESNext",
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true,
-    "experimentalDecorators": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "strict": true,
     "target": "es5",
-    "esModuleInterop": true,
-    "paths": {
-      "mini-signals": [
-        "node_modules/resource-loader/typings/mini-signals.d.ts"
-      ]
-    },
-    "baseUrl": "./"
+    "esModuleInterop": true
   },
   "include": [
     "src/**/*.ts"
