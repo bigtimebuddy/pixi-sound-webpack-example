@@ -22,7 +22,7 @@ module.exports = {
         path: distPath
     },
     devServer: {
-        contentBase: distPath,
+        static: distPath,
         compress: true,
         port: 9000
     }
